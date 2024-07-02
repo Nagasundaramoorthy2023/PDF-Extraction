@@ -11,7 +11,7 @@ import json
 app = Flask(__name__)
 
 # Set your OpenAI API key
-api_key = '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'
+api_key = 'sk-proj-B8CjOSwdAGvgWGhHjMBPT3BlbkFJGXveG6xgZC9LpOZAkVqd'
 client = OpenAI(api_key=api_key)
 
 def extract_text_from_pdf(pdf_path):
